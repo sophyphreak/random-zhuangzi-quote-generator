@@ -38,7 +38,7 @@ export default class Machine extends React.Component {
             <NewQuoteButton clickHandler={this.getQuoteNumber}/>
           </div>
         </div>
-        <p className="who-is-zhuangzi"><a href="https://en.wikipedia.org/wiki/Zhuangzi_(book)" target="_blank">Who is Zhuangzi?</a></p>
+        <p className="who-is-zhuangzi"><a href="https://en.wikipedia.org/wiki/Zhuangzi_(book)" target="_blank" rel="noopener noreferrer">Who is Zhuangzi?</a></p>
       </div>
     );
   }
